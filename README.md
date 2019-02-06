@@ -1,29 +1,26 @@
-# vueproject
+# Deskripsi Vue Router
 
-## Project setup
-```
-npm install
-```
+Introduction
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Vue Router is the official router for Vue.js. It deeply integrates with Vue.js core to make building Single Page Applications with Vue.js a breeze. Features include:
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Nested route/view mapping
+Modular, component-based router configuration
+Route params, query, wildcards
+View transition effects powered by Vue.js' transition system
+Fine-grained navigation control
+Links with automatic active CSS classes
+HTML5 history mode or hash mode, with auto-fallback in IE9
+Customizable Scroll Behavior
 
-### Run your tests
-```
-npm run test
-```
+# Deskripsi Tugas
 
-### Lints and fixes files
-```
-npm run lint
-```
+Dalam tugas ini kita diperintahkan untuk menginput nama dan membuat 3 buah soal lalu output nilai ketika jawaban benar yang dipilih
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# Isi Tugas
+Dalam tugas ini menggunakan Package "npm install vue-router",didalamnya terdapat input nama,output nilai,
+soal yang terdiri 3 butir tentang SMKN 4 Bandung.Pada soal jika jawaban sudah benar maka soal tersebut 
+akan tidak akan berfungsi karena menggunakan "this.checked = true" dan akan menambah output nilai sebanyak 1 
+menggunakan "this.nilai += 1"
+
+
